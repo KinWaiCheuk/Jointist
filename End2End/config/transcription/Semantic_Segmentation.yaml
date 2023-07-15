@@ -1,0 +1,23 @@
+model:
+    type: "Semantic_Segmentation"
+    args:
+        out_class: ${MIDI_MAPPING.plugin_labels_num}
+        dropout_rate: 0.4
+
+evaluation:
+    max_evaluation_steps: 100
+    onset_threshold: 0.1
+    offset_threshod: 0.1
+    frame_threshold: 0.1
+    pedal_offset_threshold: 0.2
+    modeling_offset: False
+    seg_batch_size: 8
+    checkpoint_path: '/opt/tiger/kinwai/jointist/outputs/2021-12-25/08-38-16/Semantic_Segmentation-MIDI_class-csize=39-bz=4/version_0/checkpoints/last.ckpt'
+    output_path: null
+
+defaults:
+    - postprocessor: OnsetFramePostProcessor
+    - feature: mel    
+
+batchprocess:
+    MIDI_MAPPING: ${MIDI_MAPPING}

@@ -1,0 +1,97 @@
+gpus: 1
+epochs: 500
+augmentation: False
+batch_size: 12
+segment_seconds: 10
+frames_per_second: 100
+val_frequency: 50
+lr: 1e-3
+source: True
+download: False
+inst_sampler:
+    mode: 'imbalance'
+    temp: 0.5
+    samples: 3
+    neg_samples: 1
+    audio_noise: 0.0
+
+datamodule:
+    slakhdata_root: '../../MusicDataset'
+    waveform_dir: 'waveforms/packed_waveforms'
+    pkl_dir: 'packed_pkl'
+    dataset_cfg:
+        train:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            transcription: True
+            random_crop: True
+            source: ${source}
+            download: ${download}
+            name_to_ix: ${MIDI_MAPPING.NAME_TO_IX}
+            ix_to_name: ${MIDI_MAPPING.IX_TO_NAME}
+            plugin_labels_num: ${MIDI_MAPPING.plugin_labels_num}
+        val:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            transcription: True
+            random_crop: False
+            source: ${source} 
+            download: False
+            name_to_ix: ${MIDI_MAPPING.NAME_TO_IX}
+            ix_to_name: ${MIDI_MAPPING.IX_TO_NAME}
+            plugin_labels_num: ${MIDI_MAPPING.plugin_labels_num}            
+        test:
+            segment_seconds: null
+            frames_per_second: ${frames_per_second}
+            transcription: True
+            random_crop: False
+            source: ${source}
+            download: ${download}
+            name_to_ix: ${MIDI_MAPPING.NAME_TO_IX}
+            ix_to_name: ${MIDI_MAPPING.IX_TO_NAME}
+            plugin_labels_num: ${MIDI_MAPPING.plugin_labels_num}            
+    dataloader_cfg:
+        train:
+            batch_size: ${batch_size}
+            num_workers: 4
+            shuffle: True
+            pin_memory: True
+        val:
+            batch_size: ${batch_size}
+            num_workers: 4
+            shuffle: False
+            pin_memory: True
+        test:
+            batch_size: 1
+            num_workers: 4
+            shuffle: False
+            pin_memory: True
+    
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'MIDI_class'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+    
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  check_val_every_n_epoch: ${val_frequency}
+  log_every_n_steps: 100
+  
+checkpoint:
+  monitor: 'Transcription_Loss/Valid'
+  filename: "e={epoch:02d}-train_loss={Transcription_Loss/Train:.2f}-valid_loss={Transcription_Loss/Valid:.2f}"
+  save_top_k: 1
+  mode: 'min'
+  save_last: True
+  every_n_epochs: ${trainer.check_val_every_n_epoch}  
+      
+defaults:
+    - transcription: Original
+    - scheduler: LambdaLR

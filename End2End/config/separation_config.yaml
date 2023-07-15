@@ -1,0 +1,88 @@
+gpus: 1
+epochs: 500
+augmentation: False
+batch_size: 4
+segment_seconds: 10
+frames_per_second: 100
+val_frequency: 5
+num_workers: 4
+lr: 1e-4
+source: True
+transcription: # to be overwritten depending on the model type
+inst_sampler:
+    mode: 'imbalance'
+    temp: 0.5
+    samples: 3
+    neg_samples: 1
+    audio_noise: 0.0
+
+datamodule:
+    waveform_hdf5s_dir:
+    notes_pkls_dir:    
+    dataset_cfg:
+        train:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: ${transcription}
+            random_crop: True
+            source: ${source}
+        val:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: ${transcription}
+            random_crop: False
+            source: ${source}            
+        test:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: ${transcription}
+            random_crop: False
+            source: ${source}            
+    dataloader_cfg:
+        train:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: True
+            pin_memory: True
+        val:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: False
+            pin_memory: True
+        test:
+            batch_size: 1
+            num_workers: ${num_workers}
+            shuffle: False
+            pin_memory: True
+    
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'MIDI_class'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+    
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  check_val_every_n_epoch: ${val_frequency}
+  log_every_n_steps: 100
+  
+checkpoint:
+  monitor: 'Separation/Valid/Loss'
+  filename: "e={epoch:02d}-train_loss={Separation/Train/Loss:.2f}-valid_loss={Separation/Valid/Loss:.2f}"
+  save_top_k: 1
+  mode: 'min'
+  save_last: True
+  every_n_epochs: ${trainer.check_val_every_n_epoch}  
+      
+defaults:
+    - separation: CUNet
+    - scheduler: LambdaLR

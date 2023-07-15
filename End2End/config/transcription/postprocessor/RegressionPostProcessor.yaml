@@ -1,0 +1,8 @@
+type: 'RegressionPostProcessor'
+args:
+    frames_per_second: ${frames_per_second}
+    onset_threshold: ${transcription.evaluation.onset_threshold}
+    offset_threshold: ${transcription.evaluation.offset_threshod}
+    frame_threshold: ${transcription.evaluation.frame_threshold}
+    pedal_offset_threshold: ${transcription.evaluation.pedal_offset_threshold}
+    modeling_offset: ${transcription.model.args.modeling_offset}

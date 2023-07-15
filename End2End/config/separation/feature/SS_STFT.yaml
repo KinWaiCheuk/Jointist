@@ -1,0 +1,12 @@
+STFT:
+    n_fft: 1024
+    hop_length: 160
+    center: True
+    pad_mode: "reflect"
+    power: null
+    return_complex: True
+iSTFT:
+    n_fft: ${separation.feature.STFT.n_fft}
+    hop_length: ${separation.feature.STFT.hop_length}
+    center: ${separation.feature.STFT.center}
+    pad_mode: ${separation.feature.STFT.pad_mode}

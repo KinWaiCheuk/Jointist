@@ -1,0 +1,51 @@
+slakhdata_root: '../../MusicDataset'
+waveform_dir: 'waveforms'
+pkl_dir: 'packed_pkl'
+type: 'slakh'
+dataset_cfg:
+    train:
+        segment_seconds: ${segment_seconds}
+        frames_per_second: ${frames_per_second}
+        transcription: True
+        random_crop: True
+        source: ${source}
+        download: ${download}
+        name_to_ix: ${MIDI_MAPPING.NAME_TO_IX}
+        ix_to_name: ${MIDI_MAPPING.IX_TO_NAME}
+        plugin_labels_num: ${MIDI_MAPPING.plugin_labels_num}
+    val:
+        segment_seconds: ${segment_seconds}
+        frames_per_second: ${frames_per_second}
+        transcription: True
+        random_crop: False
+        source: ${source} 
+        download: False
+        name_to_ix: ${MIDI_MAPPING.NAME_TO_IX}
+        ix_to_name: ${MIDI_MAPPING.IX_TO_NAME}
+        plugin_labels_num: ${MIDI_MAPPING.plugin_labels_num}            
+    test:
+        segment_seconds: null
+        frames_per_second: ${frames_per_second}
+        transcription: True
+        random_crop: False
+        source: ${source}
+        download: ${download}
+        name_to_ix: ${MIDI_MAPPING.NAME_TO_IX}
+        ix_to_name: ${MIDI_MAPPING.IX_TO_NAME}
+        plugin_labels_num: ${MIDI_MAPPING.plugin_labels_num}
+dataloader_cfg:
+    train:
+        batch_size: ${batch_size}
+        num_workers: ${num_workers}
+        shuffle: True
+        pin_memory: True
+    val:
+        batch_size: ${batch_size}
+        num_workers: ${num_workers}
+        shuffle: False
+        pin_memory: True
+    test:
+        batch_size: 1
+        num_workers: ${num_workers}
+        shuffle: False
+        pin_memory: True

@@ -1,0 +1,11 @@
+type: 'CNN14'
+args:
+    n_mels: ${detection.feature.STFT.n_mels}
+    channel_list:
+        - 64
+        - 128
+        - 256
+        - 512
+        - 1024
+        - 2048
+    dropout: 0.2

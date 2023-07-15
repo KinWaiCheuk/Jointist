@@ -1,0 +1,15 @@
+STFT:
+  sample_rate: 16000
+  n_fft: 2048
+  hop_length: 160
+  n_mels: 229
+  f_min: 0
+  f_max: 8000
+  center: True
+  normalized: True
+  pad_mode: 'reflect'
+dB_args:
+  multiplier: 20
+  amin: 1e-10
+  db_multiplier: 1.0
+  top_db: null    

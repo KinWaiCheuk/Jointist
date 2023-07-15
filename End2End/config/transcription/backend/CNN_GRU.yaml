@@ -1,0 +1,13 @@
+defaults:
+    - language: GRU
+    
+acoustic:    
+    type: "CNN8Dropout"
+    args:
+        condition_size: ${MIDI_MAPPING.plugin_labels_num}
+        in_channels: 1    
+    
+acoustic_dim: 768
+acoustic_dropout: 0.5
+language_dim: 512
+language_dropout: 0.5

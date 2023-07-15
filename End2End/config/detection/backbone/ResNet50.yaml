@@ -1,0 +1,5 @@
+type: 'Resnet50'
+args:
+    train_backbone: True
+    return_interm_layers: False
+    dilation: True

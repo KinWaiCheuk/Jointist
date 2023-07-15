@@ -1,0 +1,2 @@
+pkl_path: './MSD_Test/21-57-27/MIDI_output'
+roll_output_path: './MSD_Train/sparse_roll'

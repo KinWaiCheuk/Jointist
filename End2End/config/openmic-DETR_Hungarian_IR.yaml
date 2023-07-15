@@ -1,0 +1,102 @@
+gpus: 1
+epochs: 1000
+augmentation: False
+batch_size: 32
+num_workers: 4
+segment_seconds: 10
+frames_per_second: 100
+every_n_epochs: 10
+lr: 1e-3
+checkpoint_path: 'outputs/2021-11-03/15-32-36/Decoder_L2-empty_0.1-feature_weigh_0.1-Cnn14Transformer-hidden=256-Q=20-LearnPos=False-aux_loss-bsz=32-audio_len=10/version_0/checkpoints/last.ckpt'
+
+datamodule:
+    waveform_hdf5s_dir:
+    notes_pkls_dir:    
+    dataset_cfg:
+        train:
+            pre_load_audio: False
+        val:
+            pre_load_audio: False
+        test:
+            pre_load_audio: False
+    dataloader_cfg:
+        train:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: True
+            pin_memory: True
+        val:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: False
+            pin_memory: True
+        test:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: False
+            pin_memory: True
+            
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'MIDI_class'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+
+model:
+  type: 'Cnn14Transformer'
+  optimizer:
+      lr: ${lr}
+      eps: 1e-08
+      weight_decay: 0.0
+      amsgrad: True
+  eos_coef: 0.1
+  args:
+    hidden_dim: 256
+    num_Q: 20
+    max_pos: 50
+    learnable_pos: False
+    nheads: 8
+    feature_weight: 0.1
+    num_encoder_layers: 0
+    num_decoder_layers: 2
+    spec_args:
+        sample_rate: 16000
+        n_fft: 1024
+        hop_length: 160
+        n_mels: 229
+        f_min: 0
+        f_max: 8000
+        center: True
+        pad_mode: 'reflect' 
+
+
+checkpoint:
+  monitor: 'Total_Loss/Valid'
+  filename: "e={epoch:02d}-trainloss={Total_Loss/Train:.3f}-validloss{Total_Loss/Valid:.3f}"
+  save_top_k: 1
+  mode: 'min'
+  save_last: True
+  every_n_epochs: ${every_n_epochs}
+
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  check_val_every_n_epoch: ${every_n_epochs}
+  num_sanity_val_steps: 2
+  
+
+
+evaluate:
+  max_evaluation_steps: 100
+    
+LambdaLR_args: # only useful when using LambdaLR
+  warm_up_steps: 1000
+  reduce_lr_steps: 10000    
+
+defaults:
+  - scheduler: LambdaLR

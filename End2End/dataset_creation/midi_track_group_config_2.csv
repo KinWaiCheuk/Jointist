@@ -1,0 +1,168 @@
+Plugin_name,Closed set,Mapped MIDI program number,Description
+AGML2,Piano,0,acoustic guitar
+None,None,-2,/
+across_the_pacific,Strings,48,/
+ahoy,Organ,16,/
+alicias_keys,Piano,0,/
+alto_sax_vintage_solo,Organ,16,/
+alto_saxophone,Organ,16,/
+ambibella,Organ,16,Ambient organ with clear onset
+april_pan,Strings,48,Ambient organ
+ar_modern_sparkle_kit_full,Drums,-1,/
+ar_modern_white_kit_full,Drums,-1,/
+arctic_morning,Strings,48,/
+august_foerster_grand,Piano,0,/
+baritone_sax_vintage_solo,Organ,16,/
+baritone_saxophone,Organ,16,/
+bass_trombone,Organ,16,/
+bassoon,Organ,16,/
+bassoon_combi,Organ,16,/
+bassoon_essential,Organ,16,/
+bassoons_essential,Organ,16,/
+belle_de_jour,Strings,48,/
+brass_quartet_essential,Organ,16,/
+celesta,Piano,0,Llike bell
+cello_ensemble,Strings,48,/
+cello_solo,Strings,48,Maybe organ?
+cerulean,Strings,48,/
+cheesy_lead,Organ,16,/
+choir_a,Strings,48,/
+choir_e,Strings,48,/
+choir_o,Strings,48,/
+chrystal,Organ,16,/
+clarinet,Organ,16,/
+clarinet_combi,Organ,16,/
+clarinet_essential,Organ,16,/
+clarinets_essential,Organ,16,/
+classic_bass,Bass,33,/
+cold_cave,Strings,48,/
+concert_grand,Piano,0,/
+crawling_lead,Distorted,30,/
+daft,Distorted,30,Like brass
+dawn_chorus,Strings,48,/
+december_saw,Distorted,30,Like effects
+double_bass_ensemble,Strings,48,It is bass bowing not plucking so still take as strings
+double_bass_solo,Strings,48,/
+douglas_lead,Distorted,30,/
+downforce_saw,Distorted,30,Not sure ?
+drifting_apart,Organ,16,/
+elektrik_guitar,Distorted,30,/
+english_horn,Organ,16,/
+fever,Organ,16,/
+flugelhorn,Organ,16,/
+flute,Organ,16,/
+flute_essential,Organ,16,/
+flutes_essential,Organ,16,/
+french_oboe,Organ,16,/
+funk_bass,Bass,33,/
+funk_guitar,Distorted,30,Not sure ?
+funk_kit,Drums,-1,/
+garage_kit_lite,Drums,-1,/
+glockenspiel,Piano,0,Llike bell may need another category ?
+glockenspiel_essential,Piano,0,Llike bell may need another category ?
+grand_piano,Piano,0,/
+guitar_lead,Distorted,30,/
+hard_n_dirty,Distorted,30,/
+harmonic_guitar,Distorted,30,/
+harp,Piano,0,More like guitar
+harpsichord,Piano,0,More like guitar
+horn_1_essential,Organ,16,/
+horn_2_essential,Organ,16,/
+house_cat,Distorted,30,Not sure ?
+hybrid_keys_antique_toy,Piano,0,like bell with kick drum ?
+hybrid_keys_concert_marimba,Piano,0,Like bell
+hybrid_keys_futurebells,Piano,0,bell (some tracks are distorted)
+hybrid_keys_glockenspiel,Piano,0,like bell with kick drum
+hybrid_keys_hot_tropics,Piano,0,bell with noise ?
+hybrid_keys_tube_vibraphone,Piano,0,like bell with kick drum ?
+hybrid_lead,Distorted,30,/
+jazz_guitar,Piano,0,guitar
+jazz_guitar2,Piano,0,guitar
+jazz_guitar3,Organ,16,More like organ ?
+jazz_guitar4,Piano,0,guitar
+jazz_organ,Organ,16,/
+jazz_upright,Bass,33,/
+marimba,Piano,0,Maybe bell ?
+marimba_essential,Piano,0,Maybe bell ?
+musicology,Organ,16,Some are weird
+mute_trumpet,Organ,16,/
+muted_trumpet,Organ,16,/
+mystic_lead,Distorted,30,/
+nylon_guitar,Piano,0,/
+nylon_guitar2,Piano,0,/
+oboe,Organ,16,/
+oboe_essential,Organ,16,/
+oboes_essential,Organ,16,/
+organ_kh_floeten_1_manual,Organ,16,/
+organ_kh_grprplenum_manual,Organ,16,/
+outta_space,Distorted,30,/
+percussive_lead,Organ,16,/
+piccolo,Organ,16,/
+pimped_analog_saw,Distorted,30,/
+poly_detuned_lead,Distorted,30,/
+pop_bass,Bass,33,/
+pop_kit,Drums,-1,/
+processor_lead,Distorted,30,/
+ragtime_piano,Piano,0,/
+reamped_lead,Distorted,30,/
+rhythm_rock_guitar,Distorted,30,/
+rock_guitar,Organ,16,Some are distorted
+saxophone_essential,Organ,16,/
+saxophone_section,Organ,16,/
+saxophones_essential,Organ,16,/
+scarbee_a_200,Piano,0,guitar
+scarbee_clavinet_full,Piano,0,like guitar
+scarbee_jay_bass_both,Bass,33,/
+scarbee_jay_bass_slap_both,Bass,33,/
+scarbee_mark_I,Organ,16,/
+scarbee_mm_bass,Bass,33,/
+scarbee_pianet,Piano,0,guitar
+scarbee_pre_bass,Bass,33,/
+scarbee_rickenbacker_bass,Bass,33,/
+scarbee_rickenbacker_bass_palm_muted,Bass,33,/
+session_horns_pro_keyswitch_60s_horns,Organ,16,trumpet
+session_horns_pro_keyswitch_generic_section,Organ,16,trumpet
+session_kit_full,Drums,-1,/
+session_strings_pro_2_ensemble_modern,Strings,48,/
+session_strings_pro_2_ensemble_traditional,Strings,48,/
+solo_guitar,Piano,0,Longer sustain sometimes distorted
+solo_strings,Strings,48,Solo maybe like organ?
+stadium_kit_full,Drums,-1,/
+street_knowledge_kit,Drums,-1,/
+string_ensemble,Strings,48,/
+string_ensemble_essential,Strings,48,/
+tenor_sax,Organ,16,/
+tenor_saxophone,Organ,16,/
+tenor_trombone,Organ,16,/
+the_gentleman,Piano,0,/
+the_giant_hard_and_tough,Piano,0,/
+the_giant_modern_studio,Piano,0,/
+the_giant_vibrant,Piano,0,/
+the_grandeur,Piano,0,/
+timpani,Bass,33,Unique pitched drum?
+tonewheel_organ_b3,Organ,16,/
+tonewheel_organ_c3,Organ,16,/
+tonewheel_organ_m3,Organ,16,/
+transistor_compact,Organ,16,/
+transistor_continental,Organ,16,/
+trombone,Organ,16,trumpet
+trombone_section,Organ,16,trumpet
+trumpet,Organ,16,trumpet
+trumpet_1,Organ,16,trumpet
+trumpet_2,Organ,16,trumpet
+trumpet_section,Organ,16,trumpet
+tuba,Organ,16,trumpet
+tubular_bells_metal,Piano,0,Like distorted bell ?
+tubular_bells_wood,Piano,0,Like distorted bell ?
+upright_bass,Bass,33,/
+upright_bass2,Bass,33,/
+upright_piano,Piano,0,/
+viola_ensemble,Strings,48,/
+viola_solo,Strings,48,Like organ ?
+violin_ensemble,Strings,48,/
+violin_solo,Strings,48,Like organ ?
+woodwind_ensemble_essential,Organ,16,/
+woodwind_quintet_essential,Organ,16,/
+wurly_ep,Piano,0,Like guitar
+xylophone,Piano,0,Like distorted bell ?
+xylophone_essential,Piano,0,Like distorted bell ?

@@ -1,0 +1,13 @@
+type: 'CNN14_less_pooling'
+args:
+    n_mels: ${feature.STFT.n_mels}
+    num_pooling: 4
+    pool_first: True
+    channel_list:
+        - 64
+        - 128
+        - 256
+        - 512
+        - 1024
+        - 2048
+    dropout: 0.2

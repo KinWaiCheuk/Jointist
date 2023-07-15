@@ -1,0 +1,1038 @@
+{
+    "elektrik_guitar.nkm": {
+        "Distortion Guitar": 97,
+        "Overdriven Guitar": 110
+    },
+    "session_kit_full.nkm": {
+        "Drums": 156
+    },
+    "the_giant_modern_studio.nkm": {
+        "Bright Acoustic Piano": 51,
+        "Acoustic Grand Piano": 28,
+        "Honky-tonk Piano": 9,
+        "Harpsichord": 4
+    },
+    "scarbee_rickenbacker_bass_palm_muted.nkm": {
+        "Electric Bass (finger)": 80,
+        "Slap Bass 1": 9,
+        "Electric Bass (pick)": 12,
+        "Fretless Bass": 57,
+        "Slap Bass 2": 2
+    },
+    "choir_o.nkm": {
+        "Choir Aahs": 169,
+        "Voice Oohs": 110,
+        "Synth Voice": 47
+    },
+    "fever.nkm": {
+        "Percussive Organ": 8,
+        "Rock Organ": 17,
+        "Drawbar Organ": 8,
+        "Accordion": 3,
+        "Church Organ": 1,
+        "Harmonica": 1
+    },
+    "None": {
+        "FX 8 (sci-fi)": 9,
+        "Woodblock": 13,
+        "Orchestra Hit": 26,
+        "Fiddle": 32,
+        "FX 4 (atmosphere)": 33,
+        "Synth Brass 2": 41,
+        "Helicopter": 16,
+        "Synth Bass 2": 97,
+        "Reverse Cymbal": 119,
+        "Synth Bass 1": 114,
+        "Synth Brass 1": 128,
+        "Tinkle Bell": 8,
+        "FX 5 (brightness)": 64,
+        "Seashore": 20,
+        "Sitar": 23,
+        "FX 7 (echoes)": 26,
+        "Synth Drum": 30,
+        "FX 6 (goblins)": 13,
+        "Guitar Fret Noise": 43,
+        "Kalimba": 22,
+        "Taiko Drum": 7,
+        "FX 1 (rain)": 16,
+        "Telephone Ring": 20,
+        "Koto": 10,
+        "Gunshot": 22,
+        "Melodic Tom": 11,
+        "Bag pipe": 5,
+        "Shamisen": 5,
+        "Steel Drums": 4,
+        "FX 3 (crystal)": 25,
+        "Shanai": 1,
+        "Breath Noise": 3,
+        "Banjo": 11,
+        "Bird Tweet": 1,
+        "Applause": 9,
+        "FX 2 (soundtrack)": 7,
+        "Agogo": 2
+    },
+    "jazz_guitar2.nkm": {
+        "Electric Guitar (jazz)": 88,
+        "Electric Guitar (clean)": 130,
+        "Electric Guitar (muted)": 75,
+        "Guitar harmonics": 3
+    },
+    "transistor_compact.nkm": {
+        "Harmonica": 8,
+        "Rock Organ": 19,
+        "Percussive Organ": 7,
+        "Accordion": 6,
+        "Drawbar Organ": 4
+    },
+    "session_strings_pro_2_ensemble_traditional.nkm": {
+        "Synth Strings 1": 53,
+        "String Ensemble 2": 87,
+        "String Ensemble 1": 178,
+        "Synth Strings 2": 20,
+        "Pizzicato Strings": 11,
+        "Tremolo Strings": 6
+    },
+    "classic_bass.nkm": {
+        "Electric Bass (pick)": 8,
+        "Slap Bass 1": 7,
+        "Electric Bass (finger)": 97,
+        "Fretless Bass": 71,
+        "Slap Bass 2": 4
+    },
+    "processor_lead.nkm": {
+        "Lead 2 (sawtooth)": 7,
+        "Lead 3 (calliope)": 8,
+        "Lead 8 (bass + lead)": 9,
+        "Lead 7 (fifths)": 1,
+        "Lead 4 (chiff)": 1,
+        "Lead 6 (voice)": 1,
+        "Lead 1 (square)": 2
+    },
+    "cold_cave.nkm": {
+        "Pad 1 (new age)": 21,
+        "Pad 5 (bowed)": 3,
+        "Pad 6 (metallic)": 3,
+        "Pad 7 (halo)": 6,
+        "Pad 8 (sweep)": 5,
+        "Pad 3 (polysynth)": 14,
+        "Pad 2 (warm)": 12,
+        "Pad 4 (choir)": 3
+    },
+    "choir_e.nkm": {
+        "Choir Aahs": 161,
+        "Voice Oohs": 73,
+        "Synth Voice": 62
+    },
+    "glockenspiel.nkm": {
+        "Music Box": 3,
+        "Vibraphone": 7,
+        "Tubular Bells": 3,
+        "Xylophone": 1,
+        "Celesta": 3,
+        "Glockenspiel": 4
+    },
+    "scarbee_a_200.nkm": {
+        "Clavinet": 37,
+        "Electric Piano 1": 105,
+        "Electric Grand Piano": 34,
+        "Electric Piano 2": 103
+    },
+    "session_horns_pro_keyswitch_60s_horns.nkm": {
+        "Brass Section": 97
+    },
+    "jazz_guitar.nkm": {
+        "Electric Guitar (muted)": 85,
+        "Electric Guitar (jazz)": 103,
+        "Electric Guitar (clean)": 131,
+        "Guitar harmonics": 12
+    },
+    "garage_kit_lite.nkm": {
+        "Drums": 203
+    },
+    "the_grandeur.nkm": {
+        "Bright Acoustic Piano": 54,
+        "Acoustic Grand Piano": 38,
+        "Harpsichord": 5,
+        "Honky-tonk Piano": 9
+    },
+    "nylon_guitar.nkm": {
+        "Acoustic Guitar (steel)": 360,
+        "Acoustic Guitar (nylon)": 100
+    },
+    "funk_guitar.nkm": {
+        "Electric Guitar (jazz)": 71,
+        "Electric Guitar (muted)": 90,
+        "Electric Guitar (clean)": 131,
+        "Guitar harmonics": 7
+    },
+    "pop_kit.nkm": {
+        "Drums": 210
+    },
+    "ahoy.nkm": {
+        "Pad 3 (polysynth)": 13,
+        "Pad 4 (choir)": 9,
+        "Pad 8 (sweep)": 4,
+        "Pad 2 (warm)": 14,
+        "Pad 5 (bowed)": 1,
+        "Pad 1 (new age)": 13,
+        "Pad 6 (metallic)": 10,
+        "Pad 7 (halo)": 5
+    },
+    "scarbee_rickenbacker_bass.nkm": {
+        "Electric Bass (finger)": 79,
+        "Fretless Bass": 72,
+        "Electric Bass (pick)": 9,
+        "Slap Bass 2": 5,
+        "Slap Bass 1": 2
+    },
+    "choir_a.nkm": {
+        "Choir Aahs": 143,
+        "Synth Voice": 45,
+        "Voice Oohs": 92
+    },
+    "jazz_guitar3.nkm": {
+        "Electric Guitar (muted)": 110,
+        "Electric Guitar (jazz)": 91,
+        "Electric Guitar (clean)": 147,
+        "Guitar harmonics": 6
+    },
+    "session_strings_pro_2_ensemble_modern.nkm": {
+        "Synth Strings 1": 55,
+        "Synth Strings 2": 23,
+        "String Ensemble 2": 107,
+        "String Ensemble 1": 184,
+        "Pizzicato Strings": 16,
+        "Tremolo Strings": 6
+    },
+    "the_gentleman.nkm": {
+        "Harpsichord": 12,
+        "Acoustic Grand Piano": 37,
+        "Honky-tonk Piano": 15,
+        "Bright Acoustic Piano": 42
+    },
+    "ar_modern_sparkle_kit_full.nkm": {
+        "Drums": 196
+    },
+    "/Library/Audio/Plug-Ins/Components/AGML2.component": {
+        "Acoustic Guitar (steel)": 266,
+        "Acoustic Guitar (nylon)": 85
+    },
+    "alicias_keys.nkm": {
+        "Acoustic Grand Piano": 31,
+        "Honky-tonk Piano": 8,
+        "Bright Acoustic Piano": 51,
+        "Harpsichord": 9
+    },
+    "piccolo.nkm": {
+        "Pan Flute": 32,
+        "Flute": 56,
+        "Shakuhachi": 4,
+        "Recorder": 12,
+        "Blown Bottle": 3,
+        "Whistle": 6,
+        "Piccolo": 4,
+        "Ocarina": 6
+    },
+    "scarbee_jay_bass_both.nkm": {
+        "Electric Bass (finger)": 78,
+        "Fretless Bass": 74,
+        "Slap Bass 2": 2,
+        "Electric Bass (pick)": 7,
+        "Slap Bass 1": 6
+    },
+    "hybrid_keys_tube_vibraphone.nkm": {
+        "Glockenspiel": 4,
+        "Music Box": 2,
+        "Vibraphone": 8,
+        "Xylophone": 2,
+        "Marimba": 3,
+        "Celesta": 1,
+        "Tubular Bells": 1
+    },
+    "scarbee_clavinet_full.nkm": {
+        "Electric Piano 2": 73,
+        "Electric Piano 1": 84,
+        "Electric Grand Piano": 30,
+        "Clavinet": 20
+    },
+    "flute_essential.nkm": {
+        "Flute": 44,
+        "Recorder": 43,
+        "Pan Flute": 21,
+        "Ocarina": 8,
+        "Shakuhachi": 9,
+        "Piccolo": 8,
+        "Blown Bottle": 2,
+        "Whistle": 6
+    },
+    "rhythm_rock_guitar.nkm": {
+        "Overdriven Guitar": 126,
+        "Distortion Guitar": 70
+    },
+    "string_ensemble_essential.nkm": {
+        "Synth Strings 1": 67,
+        "String Ensemble 1": 230,
+        "String Ensemble 2": 102,
+        "Synth Strings 2": 17,
+        "Pizzicato Strings": 17,
+        "Tremolo Strings": 8
+    },
+    "saxophones_essential.nkm": {
+        "Soprano Sax": 6,
+        "Alto Sax": 50,
+        "Baritone Sax": 11,
+        "Tenor Sax": 26
+    },
+    "stadium_kit_full.nkm": {
+        "Drums": 179
+    },
+    "wurly_ep.nkm": {
+        "Electric Piano 1": 93,
+        "Electric Piano 2": 88,
+        "Electric Grand Piano": 26,
+        "Clavinet": 22
+    },
+    "trumpet_2.nkm": {
+        "Trumpet": 17,
+        "Muted Trumpet": 5
+    },
+    "pop_bass.nkm": {
+        "Fretless Bass": 62,
+        "Electric Bass (finger)": 81,
+        "Electric Bass (pick)": 12,
+        "Slap Bass 1": 5,
+        "Slap Bass 2": 5
+    },
+    "horn_2_essential.nkm": {
+        "French Horn": 38
+    },
+    "trombone_section.nkm": {
+        "Trombone": 26
+    },
+    "saxophone_essential.nkm": {
+        "Alto Sax": 54,
+        "Soprano Sax": 7,
+        "Tenor Sax": 24,
+        "Baritone Sax": 3
+    },
+    "rock_guitar.nkm": {
+        "Overdriven Guitar": 121,
+        "Distortion Guitar": 88
+    },
+    "trumpet_1.nkm": {
+        "Muted Trumpet": 3,
+        "Trumpet": 15
+    },
+    "flutes_essential.nkm": {
+        "Flute": 56,
+        "Pan Flute": 23,
+        "Shakuhachi": 9,
+        "Recorder": 15,
+        "Ocarina": 9,
+        "Piccolo": 7,
+        "Whistle": 5,
+        "Blown Bottle": 1
+    },
+    "hybrid_keys_glockenspiel.nkm": {
+        "Vibraphone": 8,
+        "Marimba": 5,
+        "Celesta": 4,
+        "Music Box": 3,
+        "Glockenspiel": 6
+    },
+    "grand_piano.nkm": {
+        "Bright Acoustic Piano": 42,
+        "Acoustic Grand Piano": 45,
+        "Honky-tonk Piano": 11,
+        "Harpsichord": 9
+    },
+    "jazz_guitar4.nkm": {
+        "Electric Guitar (clean)": 125,
+        "Electric Guitar (jazz)": 85,
+        "Electric Guitar (muted)": 88,
+        "Guitar harmonics": 6
+    },
+    "scarbee_pre_bass.nkm": {
+        "Fretless Bass": 71,
+        "Slap Bass 2": 6,
+        "Electric Bass (finger)": 77,
+        "Electric Bass (pick)": 11,
+        "Slap Bass 1": 3
+    },
+    "scarbee_mark_I.nkm": {
+        "Electric Piano 2": 90,
+        "Electric Piano 1": 92,
+        "Electric Grand Piano": 37,
+        "Clavinet": 23
+    },
+    "ragtime_piano.nkm": {
+        "Acoustic Grand Piano": 38,
+        "Bright Acoustic Piano": 40,
+        "Honky-tonk Piano": 10,
+        "Harpsichord": 5
+    },
+    "daft.nkm": {
+        "Pad 4 (choir)": 8,
+        "Pad 2 (warm)": 14,
+        "Pad 8 (sweep)": 2,
+        "Pad 1 (new age)": 16,
+        "Pad 3 (polysynth)": 9,
+        "Pad 7 (halo)": 8,
+        "Pad 6 (metallic)": 2,
+        "Pad 5 (bowed)": 1
+    },
+    "marimba.nkm": {
+        "Music Box": 3,
+        "Vibraphone": 10,
+        "Glockenspiel": 2,
+        "Dulcimer": 1,
+        "Xylophone": 2,
+        "Marimba": 2,
+        "Tubular Bells": 1,
+        "Celesta": 1
+    },
+    "hybrid_keys_futurebells.nkm": {
+        "Glockenspiel": 3,
+        "Vibraphone": 11,
+        "Music Box": 1,
+        "Xylophone": 2,
+        "Marimba": 6,
+        "Celesta": 1
+    },
+    "french_oboe.nkm": {
+        "Oboe": 14
+    },
+    "string_ensemble.nkm": {
+        "String Ensemble 2": 109,
+        "Synth Strings 1": 47,
+        "String Ensemble 1": 185,
+        "Synth Strings 2": 21,
+        "Pizzicato Strings": 14,
+        "Tremolo Strings": 5
+    },
+    "nylon_guitar2.nkm": {
+        "Acoustic Guitar (steel)": 318,
+        "Acoustic Guitar (nylon)": 102
+    },
+    "across_the_pacific.nkm": {
+        "Pad 7 (halo)": 15,
+        "Pad 1 (new age)": 15,
+        "Pad 3 (polysynth)": 13,
+        "Pad 2 (warm)": 12,
+        "Pad 8 (sweep)": 3,
+        "Pad 4 (choir)": 5,
+        "Pad 6 (metallic)": 6,
+        "Pad 5 (bowed)": 1
+    },
+    "ar_modern_white_kit_full.nkm": {
+        "Drums": 175
+    },
+    "concert_grand.nkm": {
+        "Bright Acoustic Piano": 68,
+        "Acoustic Grand Piano": 43,
+        "Honky-tonk Piano": 9,
+        "Harpsichord": 8
+    },
+    "harmonic_guitar.nkm": {
+        "Overdriven Guitar": 144,
+        "Distortion Guitar": 79
+    },
+    "funk_kit.nkm": {
+        "Drums": 201
+    },
+    "harp.nkm": {
+        "Orchestral Harp": 57
+    },
+    "hybrid_keys_concert_marimba.nkm": {
+        "Dulcimer": 1,
+        "Vibraphone": 10,
+        "Celesta": 2,
+        "Glockenspiel": 8,
+        "Music Box": 1,
+        "Marimba": 1,
+        "Tubular Bells": 1
+    },
+    "jazz_upright.nkm": {
+        "Acoustic Bass": 15
+    },
+    "scarbee_pianet.nkm": {
+        "Electric Piano 1": 99,
+        "Electric Piano 2": 86,
+        "Clavinet": 20,
+        "Electric Grand Piano": 24
+    },
+    "transistor_continental.nkm": {
+        "Drawbar Organ": 9,
+        "Rock Organ": 15,
+        "Percussive Organ": 9,
+        "Harmonica": 3,
+        "Accordion": 4,
+        "Reed Organ": 2,
+        "Church Organ": 1
+    },
+    "downforce_saw.nkm": {
+        "Lead 2 (sawtooth)": 11,
+        "Lead 6 (voice)": 4,
+        "Lead 7 (fifths)": 1,
+        "Lead 3 (calliope)": 7,
+        "Lead 1 (square)": 4,
+        "Lead 8 (bass + lead)": 6,
+        "Lead 4 (chiff)": 2,
+        "Lead 5 (charang)": 2
+    },
+    "funk_bass.nkm": {
+        "Electric Bass (finger)": 106,
+        "Fretless Bass": 59,
+        "Slap Bass 2": 2,
+        "Slap Bass 1": 7,
+        "Electric Bass (pick)": 13
+    },
+    "house_cat.nkm": {
+        "Harmonica": 7,
+        "Church Organ": 2,
+        "Percussive Organ": 9,
+        "Drawbar Organ": 5,
+        "Rock Organ": 19,
+        "Reed Organ": 4,
+        "Tango Accordion": 3
+    },
+    "organ_kh_floeten_1_manual.nkm": {
+        "Rock Organ": 14,
+        "Drawbar Organ": 6,
+        "Reed Organ": 3,
+        "Percussive Organ": 8,
+        "Accordion": 2,
+        "Tango Accordion": 1,
+        "Harmonica": 5,
+        "Church Organ": 1
+    },
+    "session_horns_pro_keyswitch_generic_section.nkm": {
+        "Brass Section": 88
+    },
+    "solo_guitar.nkm": {
+        "Overdriven Guitar": 120,
+        "Distortion Guitar": 90
+    },
+    "scarbee_mm_bass.nkm": {
+        "Electric Bass (finger)": 69,
+        "Slap Bass 1": 6,
+        "Fretless Bass": 71,
+        "Slap Bass 2": 9,
+        "Electric Bass (pick)": 12
+    },
+    "brass_quartet_essential.nkm": {
+        "Brass Section": 110
+    },
+    "street_knowledge_kit.nkm": {
+        "Drums": 180
+    },
+    "upright_piano.nkm": {
+        "Acoustic Grand Piano": 45,
+        "Honky-tonk Piano": 6,
+        "Bright Acoustic Piano": 57,
+        "Harpsichord": 8
+    },
+    "timpani.nkm": {
+        "Timpani": 45
+    },
+    "glockenspiel_essential.nkm": {
+        "Tubular Bells": 3,
+        "Glockenspiel": 2,
+        "Vibraphone": 9,
+        "Marimba": 6,
+        "Dulcimer": 1,
+        "Music Box": 3
+    },
+    "poly_detuned_lead.nkm": {
+        "Lead 2 (sawtooth)": 13,
+        "Lead 8 (bass + lead)": 7,
+        "Lead 3 (calliope)": 13,
+        "Lead 4 (chiff)": 2,
+        "Lead 1 (square)": 5,
+        "Lead 5 (charang)": 2
+    },
+    "outta_space.nkm": {
+        "Drawbar Organ": 6,
+        "Rock Organ": 17,
+        "Percussive Organ": 6,
+        "Harmonica": 9,
+        "Accordion": 4,
+        "Reed Organ": 1
+    },
+    "ambibella.nkm": {
+        "Pad 4 (choir)": 3,
+        "Pad 7 (halo)": 7,
+        "Pad 1 (new age)": 11,
+        "Pad 5 (bowed)": 3,
+        "Pad 8 (sweep)": 8,
+        "Pad 3 (polysynth)": 5,
+        "Pad 2 (warm)": 4,
+        "Pad 6 (metallic)": 2
+    },
+    "oboes_essential.nkm": {
+        "Oboe": 13
+    },
+    "december_saw.nkm": {
+        "Lead 2 (sawtooth)": 15,
+        "Lead 3 (calliope)": 10,
+        "Lead 1 (square)": 4,
+        "Lead 6 (voice)": 3,
+        "Lead 4 (chiff)": 3,
+        "Lead 5 (charang)": 3,
+        "Lead 8 (bass + lead)": 2
+    },
+    "belle_de_jour.nkm": {
+        "Pad 1 (new age)": 16,
+        "Pad 8 (sweep)": 5,
+        "Pad 7 (halo)": 15,
+        "Pad 3 (polysynth)": 8,
+        "Pad 2 (warm)": 11,
+        "Pad 5 (bowed)": 2,
+        "Pad 4 (choir)": 3,
+        "Pad 6 (metallic)": 1
+    },
+    "the_giant_vibrant.nkm": {
+        "Honky-tonk Piano": 6,
+        "Acoustic Grand Piano": 48,
+        "Harpsichord": 7,
+        "Bright Acoustic Piano": 54
+    },
+    "solo_strings.nkm": {
+        "Cello": 9,
+        "Violin": 22,
+        "Viola": 5,
+        "Contrabass": 3
+    },
+    "cerulean.nkm": {
+        "Pad 7 (halo)": 12,
+        "Pad 2 (warm)": 5,
+        "Pad 1 (new age)": 17,
+        "Pad 5 (bowed)": 4,
+        "Pad 4 (choir)": 4,
+        "Pad 3 (polysynth)": 7,
+        "Pad 8 (sweep)": 7,
+        "Pad 6 (metallic)": 1
+    },
+    "harpsichord.nkm": {
+        "Bright Acoustic Piano": 57,
+        "Acoustic Grand Piano": 45,
+        "Harpsichord": 8,
+        "Honky-tonk Piano": 5
+    },
+    "tenor_sax.nkm": {
+        "Tenor Sax": 18
+    },
+    "upright_bass.nkm": {
+        "Acoustic Bass": 11
+    },
+    "baritone_sax_vintage_solo.nkm": {
+        "Baritone Sax": 6
+    },
+    "cheesy_lead.nkm": {
+        "Lead 2 (sawtooth)": 6,
+        "Lead 8 (bass + lead)": 5,
+        "Lead 1 (square)": 3,
+        "Lead 3 (calliope)": 6,
+        "Lead 4 (chiff)": 2,
+        "Lead 5 (charang)": 2,
+        "Lead 6 (voice)": 1
+    },
+    "scarbee_jay_bass_slap_both.nkm": {
+        "Fretless Bass": 70,
+        "Electric Bass (finger)": 90,
+        "Electric Bass (pick)": 12,
+        "Slap Bass 2": 6,
+        "Slap Bass 1": 5
+    },
+    "violin_solo.nkm": {
+        "Violin": 20
+    },
+    "tonewheel_organ_c3.nkm": {
+        "Percussive Organ": 7,
+        "Rock Organ": 21,
+        "Drawbar Organ": 5,
+        "Tango Accordion": 2,
+        "Harmonica": 10,
+        "Accordion": 2,
+        "Reed Organ": 1
+    },
+    "pimped_analog_saw.nkm": {
+        "Lead 6 (voice)": 8,
+        "Lead 3 (calliope)": 14,
+        "Lead 8 (bass + lead)": 5,
+        "Lead 2 (sawtooth)": 11,
+        "Lead 1 (square)": 2,
+        "Lead 5 (charang)": 2,
+        "Lead 4 (chiff)": 1
+    },
+    "trumpet.nkm": {
+        "Trumpet": 13,
+        "Muted Trumpet": 3
+    },
+    "alto_saxophone.nkm": {
+        "Alto Sax": 47,
+        "Soprano Sax": 5
+    },
+    "douglas_lead.nkm": {
+        "Lead 2 (sawtooth)": 14,
+        "Lead 3 (calliope)": 5,
+        "Lead 1 (square)": 4,
+        "Lead 4 (chiff)": 2,
+        "Lead 6 (voice)": 2,
+        "Lead 5 (charang)": 3
+    },
+    "horn_1_essential.nkm": {
+        "French Horn": 51
+    },
+    "april_pan.nkm": {
+        "Pad 8 (sweep)": 9,
+        "Pad 7 (halo)": 8,
+        "Pad 2 (warm)": 9,
+        "Pad 4 (choir)": 9,
+        "Pad 3 (polysynth)": 3,
+        "Pad 1 (new age)": 9,
+        "Pad 6 (metallic)": 1,
+        "Pad 5 (bowed)": 2
+    },
+    "flute.nkm": {
+        "Pan Flute": 37,
+        "Flute": 46,
+        "Recorder": 28,
+        "Shakuhachi": 4,
+        "Piccolo": 8,
+        "Blown Bottle": 3,
+        "Whistle": 7,
+        "Ocarina": 4
+    },
+    "jazz_organ.nkm": {
+        "Rock Organ": 15,
+        "Harmonica": 8,
+        "Drawbar Organ": 5,
+        "Percussive Organ": 8,
+        "Church Organ": 1,
+        "Accordion": 4,
+        "Reed Organ": 2,
+        "Tango Accordion": 1
+    },
+    "august_foerster_grand.nkm": {
+        "Bright Acoustic Piano": 53,
+        "Acoustic Grand Piano": 44,
+        "Honky-tonk Piano": 10,
+        "Harpsichord": 8
+    },
+    "tubular_bells_wood.nkm": {
+        "Music Box": 5,
+        "Tubular Bells": 2,
+        "Glockenspiel": 5,
+        "Marimba": 5,
+        "Vibraphone": 6,
+        "Xylophone": 1
+    },
+    "dawn_chorus.nkm": {
+        "Pad 6 (metallic)": 8,
+        "Pad 7 (halo)": 10,
+        "Pad 3 (polysynth)": 11,
+        "Pad 8 (sweep)": 5,
+        "Pad 2 (warm)": 12,
+        "Pad 1 (new age)": 8,
+        "Pad 4 (choir)": 3
+    },
+    "violin_ensemble.nkm": {
+        "Violin": 24
+    },
+    "bassoon_combi.nkm": {
+        "Bassoon": 1
+    },
+    "tonewheel_organ_b3.nkm": {
+        "Drawbar Organ": 5,
+        "Reed Organ": 1,
+        "Percussive Organ": 10,
+        "Rock Organ": 12,
+        "Accordion": 5,
+        "Church Organ": 2,
+        "Harmonica": 7
+    },
+    "xylophone_essential.nkm": {
+        "Vibraphone": 11,
+        "Marimba": 11,
+        "Dulcimer": 2,
+        "Glockenspiel": 2,
+        "Xylophone": 1,
+        "Celesta": 1,
+        "Music Box": 3
+    },
+    "arctic_morning.nkm": {
+        "Pad 7 (halo)": 10,
+        "Pad 6 (metallic)": 4,
+        "Pad 2 (warm)": 11,
+        "Pad 1 (new age)": 9,
+        "Pad 3 (polysynth)": 7,
+        "Pad 8 (sweep)": 3,
+        "Pad 5 (bowed)": 1,
+        "Pad 4 (choir)": 3
+    },
+    "drifting_apart.nkm": {
+        "Pad 8 (sweep)": 5,
+        "Pad 2 (warm)": 7,
+        "Pad 1 (new age)": 14,
+        "Pad 7 (halo)": 4,
+        "Pad 4 (choir)": 11,
+        "Pad 3 (polysynth)": 13,
+        "Pad 5 (bowed)": 4,
+        "Pad 6 (metallic)": 1
+    },
+    "percussive_lead.nkm": {
+        "Lead 2 (sawtooth)": 5,
+        "Lead 3 (calliope)": 3,
+        "Lead 5 (charang)": 6,
+        "Lead 8 (bass + lead)": 5,
+        "Lead 1 (square)": 2,
+        "Lead 6 (voice)": 3
+    },
+    "baritone_saxophone.nkm": {
+        "Baritone Sax": 3
+    },
+    "saxophone_section.nkm": {
+        "Tenor Sax": 22,
+        "Alto Sax": 53,
+        "Baritone Sax": 5,
+        "Soprano Sax": 5
+    },
+    "hybrid_lead.nkm": {
+        "Lead 3 (calliope)": 11,
+        "Lead 8 (bass + lead)": 10,
+        "Lead 5 (charang)": 5,
+        "Lead 1 (square)": 4,
+        "Lead 2 (sawtooth)": 6,
+        "Lead 6 (voice)": 3
+    },
+    "tuba.nkm": {
+        "Tuba": 26
+    },
+    "oboe.nkm": {
+        "Oboe": 9
+    },
+    "woodwind_ensemble_essential.nkm": {
+        "English Horn": 1,
+        "Oboe": 9,
+        "Clarinet": 6
+    },
+    "hybrid_keys_hot_tropics.nkm": {
+        "Marimba": 2,
+        "Vibraphone": 11,
+        "Celesta": 1,
+        "Music Box": 5,
+        "Glockenspiel": 4,
+        "Tubular Bells": 1,
+        "Xylophone": 1
+    },
+    "alto_sax_vintage_solo.nkm": {
+        "Alto Sax": 36,
+        "Soprano Sax": 7
+    },
+    "mute_trumpet.nkm": {
+        "Trumpet": 17,
+        "Muted Trumpet": 3
+    },
+    "organ_kh_grprplenum_manual.nkm": {
+        "Percussive Organ": 13,
+        "Rock Organ": 21,
+        "Drawbar Organ": 8,
+        "Accordion": 7,
+        "Reed Organ": 3,
+        "Harmonica": 7,
+        "Church Organ": 1
+    },
+    "clarinet_combi.nkm": {
+        "Clarinet": 15
+    },
+    "woodwind_quintet_essential.nkm": {
+        "Clarinet": 7,
+        "Baritone Sax": 5,
+        "Oboe": 10,
+        "Bassoon": 2,
+        "English Horn": 2
+    },
+    "musicology.nkm": {
+        "Accordion": 3,
+        "Drawbar Organ": 4,
+        "Percussive Organ": 7,
+        "Rock Organ": 17,
+        "Harmonica": 5,
+        "Reed Organ": 2
+    },
+    "viola_ensemble.nkm": {
+        "Viola": 4
+    },
+    "reamped_lead.nkm": {
+        "Lead 3 (calliope)": 7,
+        "Lead 5 (charang)": 3,
+        "Lead 1 (square)": 2,
+        "Lead 6 (voice)": 1,
+        "Lead 8 (bass + lead)": 3,
+        "Lead 2 (sawtooth)": 8,
+        "Lead 4 (chiff)": 2
+    },
+    "the_giant_hard_and_tough.nkm": {
+        "Harpsichord": 9,
+        "Acoustic Grand Piano": 49,
+        "Bright Acoustic Piano": 35,
+        "Honky-tonk Piano": 7
+    },
+    "tonewheel_organ_m3.nkm": {
+        "Percussive Organ": 10,
+        "Reed Organ": 2,
+        "Rock Organ": 16,
+        "Harmonica": 9,
+        "Drawbar Organ": 4
+    },
+    "xylophone.nkm": {
+        "Marimba": 3,
+        "Celesta": 1,
+        "Vibraphone": 8,
+        "Music Box": 5,
+        "Glockenspiel": 5
+    },
+    "clarinet.nkm": {
+        "Clarinet": 13
+    },
+    "tenor_trombone.nkm": {
+        "Trombone": 19
+    },
+    "upright_bass2.nkm": {
+        "Acoustic Bass": 11
+    },
+    "bass_trombone.nkm": {
+        "Trombone": 28
+    },
+    "tubular_bells_metal.nkm": {
+        "Vibraphone": 6,
+        "Marimba": 3,
+        "Music Box": 2,
+        "Glockenspiel": 1,
+        "Xylophone": 1
+    },
+    "muted_trumpet.nkm": {
+        "Trumpet": 11,
+        "Muted Trumpet": 6
+    },
+    "clarinets_essential.nkm": {
+        "Clarinet": 7
+    },
+    "guitar_lead.nkm": {
+        "Lead 4 (chiff)": 1,
+        "Lead 8 (bass + lead)": 7,
+        "Lead 2 (sawtooth)": 7,
+        "Lead 3 (calliope)": 8,
+        "Lead 6 (voice)": 3,
+        "Lead 1 (square)": 2,
+        "Lead 5 (charang)": 1
+    },
+    "hard_n_dirty.nkm": {
+        "Lead 1 (square)": 5,
+        "Lead 8 (bass + lead)": 6,
+        "Lead 3 (calliope)": 6,
+        "Lead 2 (sawtooth)": 7,
+        "Lead 4 (chiff)": 1,
+        "Lead 5 (charang)": 1
+    },
+    "chrystal.nkm": {
+        "Pad 7 (halo)": 9,
+        "Pad 2 (warm)": 6,
+        "Pad 3 (polysynth)": 10,
+        "Pad 1 (new age)": 7,
+        "Pad 5 (bowed)": 2,
+        "Pad 6 (metallic)": 8,
+        "Pad 8 (sweep)": 1,
+        "Pad 4 (choir)": 8
+    },
+    "bassoon_essential.nkm": {
+        "Bassoon": 3
+    },
+    "mystic_lead.nkm": {
+        "Lead 8 (bass + lead)": 4,
+        "Lead 3 (calliope)": 3,
+        "Lead 2 (sawtooth)": 6,
+        "Lead 6 (voice)": 2,
+        "Lead 1 (square)": 2,
+        "Lead 5 (charang)": 2
+    },
+    "cello_ensemble.nkm": {
+        "Cello": 12
+    },
+    "marimba_essential.nkm": {
+        "Vibraphone": 9,
+        "Dulcimer": 1,
+        "Glockenspiel": 4,
+        "Celesta": 1,
+        "Tubular Bells": 6,
+        "Marimba": 3,
+        "Music Box": 1
+    },
+    "trombone.nkm": {
+        "Trombone": 30
+    },
+    "celesta.nkm": {
+        "Vibraphone": 7,
+        "Glockenspiel": 2,
+        "Xylophone": 2,
+        "Tubular Bells": 5,
+        "Music Box": 2
+    },
+    "cello_solo.nkm": {
+        "Cello": 7
+    },
+    "flugelhorn.nkm": {
+        "Muted Trumpet": 4,
+        "Trumpet": 8
+    },
+    "oboe_essential.nkm": {
+        "Oboe": 12
+    },
+    "crawling_lead.nkm": {
+        "Lead 1 (square)": 4,
+        "Lead 3 (calliope)": 8,
+        "Lead 6 (voice)": 5,
+        "Lead 2 (sawtooth)": 12,
+        "Lead 4 (chiff)": 1,
+        "Lead 5 (charang)": 2,
+        "Lead 8 (bass + lead)": 1
+    },
+    "hybrid_keys_antique_toy.nkm": {
+        "Vibraphone": 7,
+        "Marimba": 3,
+        "Glockenspiel": 4,
+        "Dulcimer": 1,
+        "Tubular Bells": 2,
+        "Music Box": 2,
+        "Celesta": 1
+    },
+    "tenor_saxophone.nkm": {
+        "Tenor Sax": 26
+    },
+    "clarinet_essential.nkm": {
+        "Clarinet": 11
+    },
+    "trumpet_section.nkm": {
+        "Trumpet": 9,
+        "Muted Trumpet": 3
+    },
+    "double_bass_ensemble.nkm": {
+        "Contrabass": 4
+    },
+    "viola_solo.nkm": {
+        "Viola": 2
+    },
+    "english_horn.nkm": {
+        "English Horn": 6
+    },
+    "bassoon.nkm": {
+        "Bassoon": 2
+    },
+    "bassoons_essential.nkm": {
+        "Bassoon": 1
+    },
+    "double_bass_solo.nkm": {
+        "Contrabass": 3
+    }
+}

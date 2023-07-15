@@ -1,0 +1,26 @@
+defaults:
+    - backbone: CNN14
+    - transformer: torch_Transformer_API
+    
+type: 'CombinedModel_Sv2_torch' #All options are avliable in models/instrument_detection/combined.py
+task: 'Binary'
+
+model:
+    args:
+        num_classes: ${MIDI_MAPPING.plugin_labels_num}
+        num_Q: 38
+        feature_weight: 0.1
+    positional:
+        temperature: 10000
+        normalize: True
+        scale: null
+    optimizer:
+        lr: ${lr}
+        eps: 1e-08
+        weight_decay: 0.0
+        amsgrad: True
+    eos_coef: 0.1
+    
+evaluate:
+    max_evaluation_steps: 100
+ 

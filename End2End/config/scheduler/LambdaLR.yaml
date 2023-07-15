@@ -1,0 +1,4 @@
+type: LambdaLR
+args:
+  warm_up_steps: 1000
+  reduce_lr_steps: 10000   

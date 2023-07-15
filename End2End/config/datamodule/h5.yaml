@@ -1,0 +1,12 @@
+type: 'H5Dataset'
+args:
+    h5_path: # will be overwritten in the main pred_transcription.py 
+    # by default, h5 dataset will try to predict the pianoroll for the full lenght of the audio
+waveform_hdf5s_dir: # This parameter won't be used, it is only applicailbe when training and evaluating
+notes_pkls_dir: # This parameter won't be used, it is only applicailbe when training and evaluating    
+dataloader_cfg:
+    pred:
+        batch_size: 1
+        num_workers: 0
+        shuffle: False
+        pin_memory: True

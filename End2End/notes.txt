@@ -1,0 +1,7 @@
+When using plugin_names
+Max instruments for training = 13
+Max instruments for val = 10
+
+When using MIDI programs
+Max instruments for training = 12
+Max instruments for val = 11

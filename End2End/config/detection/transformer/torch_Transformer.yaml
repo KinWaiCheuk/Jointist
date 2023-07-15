@@ -1,0 +1,18 @@
+type: 'torch_Transformer'
+encoderlayer:
+    d_model: ${detection.model.args.d_model}
+    dropout: ${detection.model.args.dropout}
+    nhead: 8
+    dim_feedforward: 2048
+    batch_first: True
+encoder:
+    num_layers: 1
+    
+decoderlayer:
+    d_model: ${detection.model.args.d_model}
+    dropout: ${detection.model.args.dropout}
+    nhead: 8
+    dim_feedforward: 2048
+    batch_first: True
+decoder:
+    num_layers: 1

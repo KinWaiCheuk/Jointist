@@ -1,0 +1,12 @@
+type: 'WildDataset'
+args:
+    audio_path: ${audio_path}
+    audio_ext: ${audio_ext}
+waveform_hdf5s_dir: # This parameter won't be used, it is only applicailbe when training and evaluating
+notes_pkls_dir: # This parameter won't be used, it is only applicailbe when training and evaluating    
+dataloader_cfg:
+    pred:
+        batch_size: 1
+        num_workers: 1
+        shuffle: False
+        pin_memory: True

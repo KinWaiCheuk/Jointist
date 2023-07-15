@@ -1,0 +1,3 @@
+type: 'AcousticModelCnn8Dropout'
+args:
+    dropout: 0.2

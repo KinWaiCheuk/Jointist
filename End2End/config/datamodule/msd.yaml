@@ -1,0 +1,12 @@
+type: 'MSD'
+waveform_hdf5s_dir: #dummy variable, won't be used when MSD is used
+notes_pkls_dir: #dummy variable, won't be used when MSD is used
+dataloader_cfg:
+    dataset_split: 'TRAIN'
+    sampler_type: 'normal'
+    batch_size: 1
+    num_workers: 8
+    num_readers: 32
+    num_chunks: 1
+    start: 0
+    end: 40000

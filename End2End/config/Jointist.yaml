@@ -1,0 +1,82 @@
+gpus: 1
+epochs: 1000
+augmentation: False
+batch_size: 16
+num_workers: 4
+segment_seconds: 10
+frames_per_second: 100
+every_n_epochs: 20
+lr: 1e-3
+checkpoint_path: 'outputs/2021-11-03/15-32-36/Decoder_L2-empty_0.1-feature_weigh_0.1-Cnn14Transformer-hidden=256-Q=20-LearnPos=False-aux_loss-bsz=32-audio_len=10/version_0/checkpoints/last.ckpt'
+
+
+datamodule:
+    waveform_hdf5s_dir:
+    notes_pkls_dir:    
+    dataset_cfg:
+        train:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: True
+            random_crop: True
+        val:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: True
+            random_crop: False
+        test:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: True
+            random_crop: False
+    dataloader_cfg:
+        train:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: True
+            pin_memory: True
+        val:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: False
+            pin_memory: True
+        test:
+            batch_size: ${batch_size}
+            num_workers: ${num_workers}
+            shuffle: False
+            pin_memory: True
+            
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'MIDI_class'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+
+checkpoint:
+  monitor: 'Total_Loss/Valid'
+  filename: "e={epoch:02d}-trainloss={Total_Loss/Train:.3f}-validloss{Total_Loss/Valid:.3f}"
+  save_top_k: 1
+  mode: 'min'
+  save_last: True
+  every_n_epochs: ${every_n_epochs}
+
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  check_val_every_n_epoch: ${every_n_epochs}
+  num_sanity_val_steps: 2
+  
+
+defaults:
+  - feature: STFT
+  - detection: config
+  - transcription: config  
+  - scheduler: LambdaLR    

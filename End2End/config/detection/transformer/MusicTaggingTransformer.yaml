@@ -1,0 +1,9 @@
+type: 'MusicTaggingTransformer'
+args:
+    d_model: 256
+    dropout: 0.1
+    nhead: 8
+    num_encoder_layers: 4
+    attention_max_len: 512
+    n_seq_cls: 1
+    n_token_cls: 1

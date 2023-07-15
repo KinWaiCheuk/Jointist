@@ -1,0 +1,11 @@
+type: MultiStepLR
+milestones:
+- 50
+- 100
+- 150
+- 300
+- 450
+- 600
+- 750
+- 900
+gamma: 0.5

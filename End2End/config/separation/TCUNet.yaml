@@ -1,0 +1,33 @@
+defaults:
+    - feature: SS_STFT
+
+model:
+    type: "TCondUNet"
+    args:
+        mode: 'sum'
+        condition_size: ${MIDI_MAPPING.plugin_labels_num}
+        is_gamma: False
+        is_beta: True
+    loss_types: 'l1_wav'
+
+
+evaluation:
+    max_evaluation_steps: 100
+    onset_threshold: 0.1
+    offset_threshod: 0.1
+    frame_threshold: 0.1
+    pedal_offset_threshold: 0.2
+    modeling_offset: ${transcription.model.args.modeling_offset}
+    seg_batch_size: 8
+    checkpoint_path: '/opt/tiger/kinwai/jointist/weights/2022-02-03/11-53-36/TSeparation-3p0n-ste_roll-pretrainedT/version_0/checkpoints/last.ckpt'
+    output_path: null
+    
+batchprocess:
+    MIDI_MAPPING: ${MIDI_MAPPING}
+    mode: ${inst_sampler.mode}
+    temp: ${inst_sampler.temp}
+    samples: ${inst_sampler.samples}
+    neg_samples: ${inst_sampler.neg_samples}
+    audio_noise: ${inst_sampler.audio_noise}
+    transcription: ${transcription}
+    source_separation: ${source}    

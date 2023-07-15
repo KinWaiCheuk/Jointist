@@ -1,0 +1,44 @@
+gpus: 1
+epochs: 300
+augmentation: False
+batch_size: 32
+num_workers: 4
+segment_seconds: 10
+frames_per_second: 100
+every_n_epochs: 10
+source: False
+download: False
+lr: 1e-3
+checkpoint_path: 'weights/MTT.ckpt'
+seg_batch_size: 8 # only use during inference 
+            
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'slakh'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+ 
+    
+# This checkpoint will only be used when training this model standalone
+checkpoint:
+  monitor: 'Detection_Loss/Valid'
+  filename: "e={epoch:02d}-trainloss={Detection_Loss/Train:.3f}-validloss{Detection_Loss/Valid:.3f}"
+  save_top_k: 1
+  mode: 'min'
+  save_last: True
+  every_n_epochs: ${every_n_epochs}
+
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  check_val_every_n_epoch: ${every_n_epochs}
+
+defaults:
+  - detection: CombinedModel_NewCLSv2
+  - scheduler: LambdaLR    
+  - datamodule: slakh_ir

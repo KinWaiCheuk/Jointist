@@ -1,0 +1,3 @@
+audio_h5_path: './sheetdoctor/template_audio.h5'
+pkl_path: './multirun/2022-02-04/23-14-29/0/MIDI_output/'
+roll_output_path: './sheetdoctor/roll'

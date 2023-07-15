@@ -1,0 +1,34 @@
+defaults:
+    - backend: CNN_GRU
+    - postprocessor: OnsetFramePostProcessor
+    - feature: mel
+    
+model:
+    type: "Original"
+    args:
+        frames_per_second: ${frames_per_second}
+        classes_num: 88
+        modeling_offset: False
+        modeling_velocity: False
+    loss_types:
+        - onset
+        - frame
+
+evaluation:
+    max_evaluation_steps: 100
+    onset_threshold: 0.1
+    offset_threshod: 0.1
+    frame_threshold: 0.1
+    pedal_offset_threshold: 0.2
+    modeling_offset: ${transcription.model.args.modeling_offset}
+    seg_batch_size: 8
+    checkpoint_path: '/workspace/public_data/raven/amt_ir/weights/transcription1000.ckpt'
+    output_path: null
+    
+batchprocess:
+    MIDI_MAPPING: ${MIDI_MAPPING}
+    mode: ${inst_sampler.mode}
+    temp: ${inst_sampler.temp}
+    samples: ${inst_sampler.samples}
+    neg_samples: ${inst_sampler.neg_samples}
+    audio_noise: ${inst_sampler.audio_noise}

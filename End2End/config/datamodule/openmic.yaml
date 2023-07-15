@@ -1,0 +1,28 @@
+waveform_hdf5s_dir:
+notes_pkls_dir:    
+dataset_cfg:
+    train:
+        pre_load_audio: False
+        slack_mapping: False
+    val:
+        pre_load_audio: False
+        slack_mapping: False
+    test:
+        pre_load_audio: False
+        slack_mapping: False
+dataloader_cfg:
+    train:
+        batch_size: ${batch_size}
+        num_workers: ${num_workers}
+        shuffle: True
+        pin_memory: True
+    val:
+        batch_size: ${batch_size}
+        num_workers: ${num_workers}
+        shuffle: False
+        pin_memory: True
+    test:
+        batch_size: ${batch_size}
+        num_workers: ${num_workers}
+        shuffle: False
+        pin_memory: True

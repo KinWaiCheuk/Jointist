@@ -1,0 +1,130 @@
+MIDI program number,	MIDI program name,			Instrument class, 		Closed set, 		Mapped MIDI program number
+0,						Acoustic Grand Piano,		Piano,					Piano,				0			
+1,						Bright Acoustic Piano,		Piano,					Piano,				0	
+2,						Electric Grand Piano,		Piano,					Piano,				0	
+3,						Honky-tonk Piano,			Piano,					Piano,				0	
+4,						Electric Piano 1,			Piano,					Piano,				0	
+5,						Electric Piano 2,			Piano,					Piano,				0	
+6,						Harpsichord,				Piano,					Piano,				0	
+7,						Clavinet,					Piano,					Piano,				0	
+8,						Celesta,					Chromatic Percussion,	Piano,				0	
+9,						Glockenspiel,				Chromatic Percussion,	Piano,				0	
+10, 					Music Box,					Chromatic Percussion,	Piano,				0	
+11, 					Vibraphone,					Chromatic Percussion,	Piano,				0	
+12, 					Marimba,					Chromatic Percussion,	Piano,				0	
+13, 					Xylophone,					Chromatic Percussion,	Piano,				0	
+14, 					Tubular Bells,				Chromatic Percussion,	Piano,				0	
+15, 					Dulcimer,					Chromatic Percussion,	Piano,				0	
+16, 					Drawbar Organ,				Organ,					Organ,				16		
+17, 					Percussive Organ,			Organ,					Organ,				16			
+18, 					Rock Organ,					Organ,					Organ,				16		
+19, 					Church Organ,				Organ,					Organ,				16			
+20, 					Reed Organ,					Organ,					Organ,				16	
+21, 					Accordion,					Organ,					Organ,				16	
+22, 					Harmonica,					Organ,					Organ,				16	
+23, 					Tango Accordion,			Organ,					Organ,				16	
+24,						Acoustic Guitar (nylon),	Guitar,					Piano,				0		
+25,						Acoustic Guitar (steel),	Guitar,					Piano,				0		
+26,						Electric Guitar (jazz),		Guitar,					Piano,				0		
+27,						Electric Guitar (clean),	Guitar,					Piano,				0		
+28,						Electric Guitar (muted),	Guitar,					Piano,				0		
+29,						Overdriven Guitar,			Guitar,					Piano,				0		
+30,						Distortion Guitar,			Guitar,					Piano,				0	
+31,						Guitar harmonics,			Guitar,					Piano,				0
+32,						Acoustic Bass, 				Bass,					Bass,				33	
+33,						Electric Bass (finger), 	Bass,					Bass,				33			
+34,						Electric Bass (pick), 		Bass,					Bass,				33			
+35,						Fretless Bass, 				Bass,					Bass,				33		
+36,						Slap Bass 1, 				Bass,					Bass,				33	
+37,						Slap Bass 2, 				Bass,					Bass,				33
+38,						Synth Bass 1, 				Bass,					Bass,				33	
+39,						Synth Bass 2, 				Bass,					Bass,				33
+40,						Violin, 					Strings,				Strings,			48					
+41,						Viola, 						Strings,				Strings,			48				
+42,						Cello,						Strings,				Strings,			48					
+43,						Contrabass, 				Strings,				Strings,			48					
+44,						Tremolo Strings, 			Strings,				Strings,			48					
+45,						Pizzicato Strings, 			Strings,				Strings,			48					
+46,						Orchestral Harp, 			Strings,				Strings,			48					
+47,						Timpani, 					Strings,				Strings,			48				
+48,						String Ensemble 1, 			Strings (continued),	Strings,			48					
+49,						String Ensemble 2, 			Strings (continued),	Strings,			48				
+50,						Synth Strings 1, 			Strings (continued),	Strings,			48				
+51,						Synth Strings 2, 			Strings (continued),	Strings,			48				
+52,						Choir Aahs, 				Strings (continued),	Strings,			48			
+53,						Voice Oohs, 				Strings (continued),	Strings,			48			
+54,						Synth Voice, 				Strings (continued),	Strings,			48				
+55,						Orchestra Hit, 				Strings (continued),	Strings,			48			
+56,						Trumpet, 					Brass,					Organ,				16				
+57,						Trombone, 					Brass,					Organ,				16				
+58,						Tuba, 						Brass,					Organ,				16				
+59,						Muted Trumpet, 				Brass,					Organ,				16					
+60,						French Horn, 				Brass,					Organ,				16						
+61,						Brass Section, 				Brass,					Organ,				16					
+62,						Synth Brass 1, 				Brass,					Organ,				16						
+63,						Synth Brass 2, 				Brass,					Organ,				16						
+64,						Soprano Sax, 				Reed,					Organ,				16						
+65,						Alto Sax, 					Reed,					Organ,				16					
+66,						Tenor Sax, 					Reed,					Organ,				16					
+67,						Baritone Sax, 				Reed,					Organ,				16						
+68,						Oboe, 						Reed,					Organ,				16					
+69,						English Horn, 				Reed,					Organ,				16						
+70,						Bassoon, 					Reed,					Organ,				16					
+71,						Clarinet, 					Reed,					Organ,				16					
+72,						Piccolo, 					Pipe,					Organ,				16					
+73,						Flute, 						Pipe,					Organ,				16				
+74,						Recorder,					Pipe,					Organ,				16					
+75,						Pan Flute,					Pipe,					Organ,				16					
+76,						Blown Bottle,				Pipe,					Organ,				16					
+77,						Shakuhachi,					Pipe,					Organ,				16					
+78,						Whistle,					Pipe,					Organ,				16				
+79,						Ocarina,					Pipe,					Organ,				16				
+80,						Lead 1 (square),			Synth Lead,				Organ,				16				
+81,						Lead 2 (sawtooth),			Synth Lead,				Organ,				16					
+82,						Lead 3 (calliope),			Synth Lead,				Organ,				16					
+83,						Lead 4 (chiff),				Synth Lead,				Organ,				16					
+84,						Lead 5 (charang),			Synth Lead,				Organ,				16					
+85,						Lead 6 (voice),				Synth Lead,				Organ,				16					
+86,						Lead 7 (fifths),			Synth Lead,				Organ,				16				
+87,						Lead 8 (bass + lead),		Synth Lead,				Organ,				16						
+88,						Pad 1 (new age),			Synth Pad,				Organ,				16				
+89,						Pad 2 (warm),				Synth Pad,				Organ,				16					
+90,						Pad 3 (polysynth),			Synth Pad,				Organ,				16					
+91,						Pad 4 (choir),				Synth Pad,				Organ,				16					
+92,						Pad 5 (bowed),				Synth Pad,				Organ,				16				
+93,						Pad 6 (metallic),			Synth Pad,				Organ,				16						
+94,						Pad 7 (halo),				Synth Pad,				Organ,				16					
+95,						Pad 8 (sweep),				Synth Pad,				Organ,				16					
+96,						FX 1 (rain),				Synth Effects,			None,				-1				
+97,						FX 2 (soundtrack),			Synth Effects,			None,				-1					
+98,						FX 3 (crystal),				Synth Effects,			None,				-1					
+99,						FX 4 (atmosphere),			Synth Effects,			None,				-1					
+100,					FX 5 (brightness),			Synth Effects,			None,				-1					
+101,					FX 6 (goblins),				Synth Effects,			None,				-1				
+102,					FX 7 (echoes),				Synth Effects,			None,				-1				
+103,					FX 8 (sci-fi),				Synth Effects,			None,				-1				
+104,					Sitar,						Ethnic,					Piano, 				0				
+105,					Banjo,						Ethnic,					Piano, 				0			
+106,					Shamisen,					Ethnic,					Piano, 				0				
+107,					Koto,						Ethnic,					Piano, 				0			
+108,					Kalimba,					Ethnic,					Piano, 				0			
+109,					Bag pipe,					Ethnic,					Piano, 				0				
+110,					Fiddle,						Ethnic,					Piano, 				0				
+111,					Shanai,						Ethnic,					Piano, 				0			
+112,					Tinkle Bell, 				Percussive,				None, 				-1				
+113,					Agogo,						Percussive,				None, 				-1				
+114,					Steel Drums, 				Percussive,				None, 				-1						
+115,					Woodblock,					Percussive,				None, 				-1					
+116,					Taiko Drum, 				Percussive,				None, 				-1					
+117,					Melodic Tom, 				Percussive,				None, 				-1						
+118,					Synth Drum, 				Percussive,				None, 				-1					
+119,					Reverse Cymbal, 			Sound effects,			None, 				-1					
+120,					Guitar Fret Noise,			Sound effects,			None, 				-1						
+121,					Breath Noise,				Sound effects,			None, 				-1					
+122,					Seashore,					Sound effects,			None, 				-1				
+123,					Bird Tweet,					Sound effects,			None, 				-1				
+124,					Telephone Ring,				Sound effects,			None, 				-1					
+125,					Helicopter,					Sound effects,			None, 				-1				
+126,					Applause, 					Sound effects,			None, 				-1				
+127,					Gunshot, 					Sound effects,			None, 				-1				
+128,					Drums, 						Drums,					Drums, 				0								

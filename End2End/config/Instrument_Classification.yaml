@@ -1,0 +1,81 @@
+gpus: 1
+epochs: 500
+augmentation: False
+batch_size: 8
+segment_seconds: 10
+frames_per_second: 100
+
+
+datamodule:
+    waveform_hdf5s_dir:
+    notes_pkls_dir:    
+    dataset_cfg:
+        train:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: False
+        val:
+            segment_seconds: ${segment_seconds}
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: False
+        test:
+            segment_seconds: null
+            frames_per_second: ${frames_per_second}
+            pre_load_audio: False
+            transcription: False
+    dataloader_cfg:
+        train:
+            batch_size: ${batch_size}
+            num_workers: 4
+            shuffle: True
+            pin_memory: True
+        val:
+            batch_size: ${batch_size}
+            num_workers: 4
+            shuffle: False
+            pin_memory: True
+        test:
+            batch_size: 1
+            num_workers: 4
+            shuffle: False
+            pin_memory: True
+            
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'plugin_names'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+
+model:
+  warm_up_epochs: 0
+  alpha: 1
+  type: 'Cnn14MeanMax'
+  args:
+    lr: 1e-3
+
+
+checkpoint:
+  monitor: 'Total_Loss/Valid'
+  filename: "e={epoch:02d}-acc={mAP/Valid:.2f}-loss={Loss/Valid:.2f}"
+  save_top_k: 3
+  mode: 'min'
+
+lr: 
+  warm_up_steps: 1000
+  reduce_lr_steps: 10000
+
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  
+
+
+evaluate:
+    max_evaluation_steps: 100

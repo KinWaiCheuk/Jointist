@@ -1,0 +1,45 @@
+gpus: 1
+epochs: 500
+augmentation: False
+batch_size: 4
+segment_seconds: 10
+frames_per_second: 100
+val_frequency: 50
+lr: 1e-3
+h5_name: 'ballroom_audio.h5'
+h5_root: '/opt/tiger/kinwai/jointist/h5dataset' 
+inst_sampler:
+    mode: 'imbalance'
+    temp: 0.9
+    samples: 3
+    audio_noise: 0.1
+
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'MIDI_class'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+    
+trainer:
+  checkpoint_callback: True
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  max_epochs: ${epochs}
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  check_val_every_n_epoch: ${val_frequency}
+  log_every_n_steps: 100
+  
+checkpoint:
+  monitor: 'Transcription_Loss/Valid'
+  filename: "e={epoch:02d}-train_loss={Transcription_Loss/Train:.2f}-valid_loss={Transcription_Loss/Valid:.2f}"
+  save_top_k: 1
+  mode: 'min'
+  save_last: True
+  every_n_epochs: ${trainer.check_val_every_n_epoch}  
+      
+defaults:
+    - transcription: Original
+    - scheduler: LambdaLR
+    - datamodule: h5

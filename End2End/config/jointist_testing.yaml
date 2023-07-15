@@ -1,0 +1,33 @@
+gpus: 1 # choose your GPU
+audio_path: # need to use absolute path
+audio_ext: 'mp3' # mp3, wav, flac, anything that torchaudio.load supports
+seg_batch_size: 8 # only use during inference 
+frames_per_second: 100
+segment_seconds: 10
+lr: null
+batch_size: 1
+num_workers: 2
+       
+MIDI_MAPPING: # This whole part will be overwritten in the main code 
+    type: 'MIDI_class'
+    plugin_labels_num: 0
+    NAME_TO_IX: 0
+    IX_TO_NAME: 0
+
+checkpoint:
+  transcription: 'weights/transcription1000.ckpt'
+  detection: "weights/MTT.ckpt"
+
+trainer:
+  gpus: ${gpus}
+  accelerator: 'ddp'
+  sync_batchnorm: True
+  replace_sampler_ddp: False
+  profiler: 'simple'
+  
+
+defaults:
+  - datamodule: slakh
+  - detection: CombinedModel_NewCLSv2
+  - transcription: Original
+  

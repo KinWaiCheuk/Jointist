@@ -1,0 +1,32 @@
+defaults:
+    - backend: CNN_GRU
+model:
+    type: "FrameOnly"
+    args:
+        frames_per_second: ${frames_per_second}
+        classes_num: 88
+        modeling_offset: False
+        modeling_velocity: False
+    loss_types:
+        - onset
+        - frame
+
+evaluation:
+    max_evaluation_steps: 100
+    onset_threshold: 0.1
+    offset_threshod: 0.1
+    frame_threshold: 0.1
+    pedal_offset_threshold: 0.2
+    modeling_offset: ${model.args.modeling_offset}
+    seg_batch_size: 8
+    checkpoint_path: '/opt/tiger/kinwai/jointist/outputs/2021-12-14/14-01-06/Original-CNN8Dropout-GRU_256-MIDI_class-imbalance-fps=100-csize=39-bz=16/version_0/checkpoints/last.ckpt'
+    output_path: null
+
+postprocessor:
+    frames_per_second: ${frames_per_second}
+    classes_num: ${MIDI_MAPPING.plugin_labels_num}
+    onset_threshold: ${transcription.evaluation.onset_threshold}
+    offset_threshold: ${transcription.evaluation.offset_threshod}
+    frame_threshold: ${transcription.evaluation.frame_threshold}
+    pedal_offset_threshold: ${transcription.evaluation.pedal_offset_threshold}
+    modeling_offset: ${transcription.model.args.modeling_offset}
