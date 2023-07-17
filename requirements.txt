@@ -1,0 +1,24 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.1+cu111
+torchaudio==0.10.1+cu111
+torchmetrics==0.6.2
+torchvision==0.11.2+cu111
+mir_eval==0.6
+h5py==2.10.0
+tqdm==4.56.0
+mido==1.2.9 
+pytorch_lightning==1.4.5
+numpy==1.18.5 
+sox==1.4.1 
+pretty_midi==0.2.9 
+pyfluidsynth==1.3.0 
+matplotlib==3.3.4 
+pandas==1.2.1
+librosa==0.8.1
+soundfile==0.10.2
+auditok 
+einops==0.3.0 
+black==20.8b1 
+tabulate
+hydra-core
+git+https://github.com/KinWaiCheuk/slakh_loader
